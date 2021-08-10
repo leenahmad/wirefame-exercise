@@ -97,6 +97,7 @@ button {
 }
 
 button:hover {
+
   background: rgb(109, 109, 109);
   padding-left: 50px;
  
@@ -106,5 +107,4 @@ footer{
   clear : both;
   height: 70px;
   background: rgb(0, 0, 0);
-  /* margin-bottom: 50px; */
 } 
