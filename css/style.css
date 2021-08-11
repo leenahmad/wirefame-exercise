@@ -1,99 +1,92 @@
- *{
+
+
+*{
   box-sizing: border-box;
 }
 header{
-  background-color: rgb(134, 134, 134);
-  font-size: 100%;
-}
+ 
+  background-color: rgb(133, 131, 131);
+  font-size : 100% ;
+   
 
-nav {
-background-color: rgb(68, 68, 68);
 }
-
-nav ul li {
-  display: inline-block;
-  padding: 35px;
-}
-nav ul li a{
-  color:lightgray;
+ul li a {
+  display: block;
   text-align: center;
+  float:right;
+   padding: 5px;
+  padding-top: 60%; 
+  padding-bottom:50px ;
   text-decoration: none;
-  margin-left: 50px;
-  padding-bottom: 20px;
-  margin-top: 50px; 
-
-}
-li{
-
+  color:lightgray;
+} 
+li  {
   display: inline-block;
-  margin-left: 20px;
-  color: white;
+  margin-left: 35px;
+  color: lightgray;
+}
+
+#pic1{
+  padding: 5px;
+  padding-top: 2%; 
+  padding-left:10% ;
+  float:left;
 }
 #pic2{
-    padding: 5px;
-    padding-top:2%;
-    padding-left:10% ;
-    float:left;
-
-}
-#Pic3 {
-  padding-left: 8%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 12%;
+   width: 100%;
+    }
+#pic3 {
+  padding-left: 7%;
+  padding-right: 12%;
   margin: 30px;
   width: 100%;
-  /* text-align: center;
-  margin-left: 100px;
-  padding-bottom: 10px;
-  float: left; */
+
 }
-
-#Pic3 :first-child{
-  margin : 10px;
-}
-#Pic3 :nth-child(2){
-  margin : 10px;
-}
-#Pic3 :nth-child(3){
-  margin : 10px;
-}
-
-
-
-#Pic6{
-  float: left;
-  margin-left: 170px;
-  width: 35%; 
-  height: 400px;
-    
-}
-
-
-p {
-  height: 320px;
-  overflow: scroll;
-  line-height: 25px;
+#pic3 :first-child{
   margin: 10px;
+}  
+#pic3 :nth-child(2){
+  margin: 10px;
+}   
+#pic3 :nth-child(3){
+  margin: 10px;
+} 
+#pic4{
+  float: left;
+  width: 50%; 
+  height: 500px;
+  padding-left: 125px;
   
+
+}  
+
+#right{
+  width: 50%;
+  height: 500px;
+  padding-right: 180px;
+  float: right;
+}
+#right p{
+  height:320px ;
+  width: 350px;
+  overflow: scroll;
 }
 h2{
   font-size: 30px;
 }
-button {
-  border: none;
-  display: inline-block;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  /* padding: 30px 10px; */
-  padding: 15px 32px;
-  font-size: 17px;
-  text-align: center;
-  margin: 4px 2px;
-  cursor: pointer;
-  border:black;
-  border-radius: 5px;
-  background: rgb(0, 0, 0);
-  color: white;
-  
+button{
+background-color:black;
+border:black;
+border-radius: 5px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
 
 button:hover {
@@ -106,5 +99,5 @@ button:hover {
 footer{
   clear : both;
   height: 70px;
-  background: rgb(0, 0, 0);
-} 
+  background: rgb(136, 136, 136);
+}  
